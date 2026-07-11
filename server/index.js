@@ -35,7 +35,7 @@ app.use(express.json());
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://synccode-1-osu2.onrender.com",
     methods: ["GET", "POST"],
   },
 });
