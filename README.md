@@ -32,6 +32,8 @@ A **real-time collaborative code editor** that enables multiple developers to co
 ---
 
 ## 📁 Project Structure
+
+```
 SyncCode/
 ├── client/ # React frontend
 │ ├── public/ # Static assets
@@ -51,16 +53,20 @@ SyncCode/
 │ └── package.json
 └── README.md
 
+```
+
 ---
 
 ## Install client dependencies
 cd client
+
 npm install
 
 ---
 
 ## Install server dependencies
 cd ../server
+
 npm install
 
 ---
